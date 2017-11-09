@@ -43,7 +43,7 @@
       if (url && url.length > 1) {
         url = decodeURIComponent(url[1]);
       } else {
-        url = "https://staging-api.ordercloud.com/api-docs/swagger.json";
+        url = "https://qa-api.ordercloud.com/api-docs/swagger.json";
       }
 
       hljs.configure({
@@ -101,7 +101,7 @@
   <div class="swagger-ui-wrap">
     <a id="logo" href="http://www.ordercloud.com"><img class="logo__img" alt="ordercloud" height="70" width="190" src="images/logo_small.png"/></a>
     <form id='api_selector'>
-      <div class='input' style="display: none"><input placeholder="https://test-api.ordercloud.com/api-docs/swagger.json" id="input_baseUrl" name="baseUrl" type="text"/></div>
+      <div class='input' style="display: none"><input placeholder="https://qa-api.ordercloud.com/api-docs/swagger.json" id="input_baseUrl" name="baseUrl" type="text"/></div>
       <div id='auth_container'></div>
       <div class='input'><a id="explore" class="header__btn" href="#" data-sw-translate>Explore</a></div>
     </form>
